@@ -4,9 +4,156 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Roma STORE</title>
-  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+  }
+  
+  .header {
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .contact-info a {
+    margin-left: 10px;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .cart a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }
+  
+  .logo {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .nav-menu {
+    background: #111;
+    padding: 10px;
+    text-align: center;
+    image:url(https://i.pinimg.com/736x/2d/7f/35/2d7f3579030baae012819f5abb7a79fe.jpg)
+  }
+  
+  .nav-menu a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 200px;
+    padding: 10px;
+    background: #fff;
+  }
+  
+  .category {
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .category img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+  }
+  
+  .category a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .info-block {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        font-family: Arial, sans-serif;
+      }
+      .info-item {
+        display: flex;
+        align-items: center;
+        color: #333;
+        font-size: 16px;
+        text-decoration: none;
+      }
+      .info-item img {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+      }
+  
+      body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+              background: #f9f9f9;
+          }
+          .container {
+              width: 90%;
+              max-width: 1000px;
+              margin: 50px auto;
+          }
+          h1 {
+              text-align: center;
+              color: #333;
+          }
+          .reviews {
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+              gap: 20px;
+              margin-top: 30px;
+          }
+          .review {
+              background-image: ur;
+              padding: 20px;
+              border-radius: 12px;
+              box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+              transition: transform 0.2s;
+          }
+          .review:hover {
+              transform: translateY(-5px);
+          }
+          .review p {
+              color: #555;
+          }
+          .review .author {
+              margin-top: 15px;
+              font-weight: bold;
+              color: #222;
+          }
+  
+</style>
     
 
 <header class="header">
